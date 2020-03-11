@@ -34,4 +34,8 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSLog(@"控制器中tableView点击事件");
+}
+
 @end

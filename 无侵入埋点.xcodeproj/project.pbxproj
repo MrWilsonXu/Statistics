@@ -18,7 +18,6 @@
 		C8EFB1812417709E00AB4FF6 /* UIViewController+logger.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EFB1802417709E00AB4FF6 /* UIViewController+logger.m */; };
 		C8EFB185241773C000AB4FF6 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EFB184241773C000AB4FF6 /* BViewController.m */; };
 		C8EFB1882417751200AB4FF6 /* UIButton+logger.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EFB1872417751200AB4FF6 /* UIButton+logger.m */; };
-		C8EFB18B241786EC00AB4FF6 /* UITableView+logger.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EFB18A241786EC00AB4FF6 /* UITableView+logger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,8 +41,6 @@
 		C8EFB184241773C000AB4FF6 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 		C8EFB1862417751200AB4FF6 /* UIButton+logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+logger.h"; sourceTree = "<group>"; };
 		C8EFB1872417751200AB4FF6 /* UIButton+logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+logger.m"; sourceTree = "<group>"; };
-		C8EFB189241786EC00AB4FF6 /* UITableView+logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+logger.h"; sourceTree = "<group>"; };
-		C8EFB18A241786EC00AB4FF6 /* UITableView+logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+logger.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +100,6 @@
 				C8EFB1872417751200AB4FF6 /* UIButton+logger.m */,
 				C8EFB17F2417709E00AB4FF6 /* UIViewController+logger.h */,
 				C8EFB1802417709E00AB4FF6 /* UIViewController+logger.m */,
-				C8EFB189241786EC00AB4FF6 /* UITableView+logger.h */,
-				C8EFB18A241786EC00AB4FF6 /* UITableView+logger.m */,
 			);
 			path = "埋点";
 			sourceTree = "<group>";
@@ -183,7 +178,6 @@
 				C8EFB1882417751200AB4FF6 /* UIButton+logger.m in Sources */,
 				C8EFB16B24176E5700AB4FF6 /* ViewController.m in Sources */,
 				C8EFB16524176E5700AB4FF6 /* AppDelegate.m in Sources */,
-				C8EFB18B241786EC00AB4FF6 /* UITableView+logger.m in Sources */,
 				C8EFB1812417709E00AB4FF6 /* UIViewController+logger.m in Sources */,
 				C8EFB17624176E5800AB4FF6 /* main.m in Sources */,
 				C8EFB17E24176E7600AB4FF6 /* SMHook.m in Sources */,
