@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C87E9B71241B80FB00DEF2E1 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E9B70241B80FB00DEF2E1 /* Person.m */; };
+		C87E9B77241B837E00DEF2E1 /* Person+Play.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E9B76241B837E00DEF2E1 /* Person+Play.m */; };
 		C8EFB16524176E5700AB4FF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EFB16424176E5700AB4FF6 /* AppDelegate.m */; };
 		C8EFB16824176E5700AB4FF6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EFB16724176E5700AB4FF6 /* SceneDelegate.m */; };
 		C8EFB16B24176E5700AB4FF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EFB16A24176E5700AB4FF6 /* ViewController.m */; };
@@ -21,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C87E9B6F241B80FB00DEF2E1 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C87E9B70241B80FB00DEF2E1 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		C87E9B75241B837D00DEF2E1 /* Person+Play.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Play.h"; sourceTree = "<group>"; };
+		C87E9B76241B837E00DEF2E1 /* Person+Play.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Play.m"; sourceTree = "<group>"; };
 		C8EFB16024176E5700AB4FF6 /* 无侵入埋点.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "无侵入埋点.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8EFB16324176E5700AB4FF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C8EFB16424176E5700AB4FF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +60,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C87E9B6E241B80AD00DEF2E1 /* 分类扩展和继承 */ = {
+			isa = PBXGroup;
+			children = (
+				C87E9B6F241B80FB00DEF2E1 /* Person.h */,
+				C87E9B70241B80FB00DEF2E1 /* Person.m */,
+				C87E9B75241B837D00DEF2E1 /* Person+Play.h */,
+				C87E9B76241B837E00DEF2E1 /* Person+Play.m */,
+			);
+			path = "分类扩展和继承";
+			sourceTree = "<group>";
+		};
 		C8EFB15724176E5700AB4FF6 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +92,7 @@
 			children = (
 				C8EFB16324176E5700AB4FF6 /* AppDelegate.h */,
 				C8EFB16424176E5700AB4FF6 /* AppDelegate.m */,
+				C87E9B6E241B80AD00DEF2E1 /* 分类扩展和继承 */,
 				C8EFB182241770D100AB4FF6 /* 埋点 */,
 				C8EFB16624176E5700AB4FF6 /* SceneDelegate.h */,
 				C8EFB16724176E5700AB4FF6 /* SceneDelegate.m */,
@@ -178,8 +196,10 @@
 				C8EFB1882417751200AB4FF6 /* UIButton+logger.m in Sources */,
 				C8EFB16B24176E5700AB4FF6 /* ViewController.m in Sources */,
 				C8EFB16524176E5700AB4FF6 /* AppDelegate.m in Sources */,
+				C87E9B77241B837E00DEF2E1 /* Person+Play.m in Sources */,
 				C8EFB1812417709E00AB4FF6 /* UIViewController+logger.m in Sources */,
 				C8EFB17624176E5800AB4FF6 /* main.m in Sources */,
+				C87E9B71241B80FB00DEF2E1 /* Person.m in Sources */,
 				C8EFB17E24176E7600AB4FF6 /* SMHook.m in Sources */,
 				C8EFB16824176E5700AB4FF6 /* SceneDelegate.m in Sources */,
 			);

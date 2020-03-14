@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Person+Play.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    Person *p = [[Person alloc] init];
+    p.basketball = @"kobe";
+    NSLog(@"知名篮球运动员：%@", p.basketball);
 }
 
 - (IBAction)logAction:(UIButton *)sender {
