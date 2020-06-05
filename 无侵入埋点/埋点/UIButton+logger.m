@@ -25,6 +25,7 @@
     [self insertToSendAction:action to:target forEvent:event];
     [self hook_sendAction:action to:target forEvent:event];
 }
+
 - (void)insertToSendAction:(SEL)action to:(id)target forEvent:(UIEvent *)event {
     // 日志记录
     if ([[[event allTouches] anyObject] phase] == UITouchPhaseEnded) {

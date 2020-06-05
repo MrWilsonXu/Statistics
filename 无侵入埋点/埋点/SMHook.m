@@ -13,19 +13,6 @@
 
 + (void)hookClass:(Class)classObject fromSelector:(SEL)fromSelector toSelector:(SEL)toSelector {
     Class class = classObject;
-    
-    Method fromMethod = class_getInstanceMethod(class, fromSelector);
-    Method toMethod = class_getInstanceMethod(class, toSelector);
-    
-    //返回成功，则表示被替换的方法没实现
-    if (class_addMethod(class, fromSelector, method_getImplementation(toMethod), method_getTypeEncoding(toMethod))) {
-        class_replaceMethod(self, toSelector, method_getImplementation(fromMethod), method_getTypeEncoding(toMethod));
-    } else {
-        method_exchangeImplementations(fromMethod, toMethod);
-    }
-    
-    /*
-    Class class = classObject;
     // 得到被替换类的实例方法
     Method fromMethod = class_getInstanceMethod(class, fromSelector);
     // 得到替换类的实例方法
@@ -38,8 +25,7 @@
     } else {
         // 交换 IMP 指针
         method_exchangeImplementations(fromMethod, toMethod);
-    }*/
-
+    }
 }
 
 @end

@@ -25,5 +25,8 @@
 - (IBAction)logAction:(UIButton *)sender {
     NSLog(@"点击了btn");
 }
+- (IBAction)showBVC:(id)sender {
+    
+}
 
 @end
